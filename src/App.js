@@ -46,7 +46,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       </head>
       <body>
-        <nav className='custom-select'>
+        <nav className='custom-select' id='top'>
           <select>
             <option value="Home">Home</option>
           </select>
@@ -111,7 +111,7 @@ function App() {
         </section>
         <article className='powerful-tools'>
           <div>
-            <img src={phoneimg} className='phone-img' alt="Phone Image" />
+            <img src={phoneimg} className='phone-img' alt="Phone" />
           </div>
           <div className='second-div'><h1 className='article-heading'>Work faster with powerful tools.</h1>
             <ul className='unordered-list'>
@@ -141,7 +141,7 @@ function App() {
           </div>
 
           <div>
-            <img src={phoneimg1} alt="Phone image" className='phoneimg1' />
+            <img src={phoneimg1} alt="Phone" className='phoneimg1' />
           </div>
 
         </article >
@@ -204,8 +204,8 @@ function App() {
             <h1>BASMA is available for all devices</h1>
             <p className='contactpara1'>sApp is available for all devices, Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora animi at iusto unde fugiat aspernatur libero pariatur eius quae labore.</p>
             <div className='justImg'>
-              <img src={GooglePlay} className='Google play' />
-              <img src={AppStore} className='App store' />
+              <img src={GooglePlay} className='btn-img' alt='Google Play' />
+              <img src={AppStore} className='btn-img' alt='App store' />
             </div>
             <p className='contactpara'>*Availabe on Iphone,Ipad and all Androir devices</p>
           </div>
@@ -239,7 +239,7 @@ function App() {
         </section>
 
         <div className='last-div'>
-          <button className='last-btn' > <a href="#"> <AiOutlineArrowUp className='arrow-up' /></a></button></div>
+          <button className='last-btn' > <a href="#top"> <AiOutlineArrowUp className='arrow-up' /></a></button></div>
       </body >
     </div>
   );
